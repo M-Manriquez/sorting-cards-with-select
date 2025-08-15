@@ -20,17 +20,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container bg-white w-75 my-3">
-      <label for="cardqty">Original:</label>
-      <input type="text" id="cardqty" class="cardqtyinput" />
-      <button type="submit">draw</button>
-      <button type="submit">Sort</button>
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-12">
+          <label for="cantidadcartas" class="fw-bold">Original:</label>
+          <input type="text" id="cantidadcartas" />
+          <button id="robarcartas">draw</button>
+          <button id="ordenarcartas">Sort</button>
+          <div class="mt-5" id="cardcontainer"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p class="fw-bold">Select log:</p>
+        </div>
+      </div>
     </div>
-    <script src="./app.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script src="./app.js"></script>
   </body>
 </html>
