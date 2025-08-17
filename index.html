@@ -28,16 +28,21 @@
             type="text"
             id="cantidadcartas"
             class="me-2"
-            placeholder="Cantidad (1-52)"
+            placeholder="Cantidad"
           />
-          <button id="robarcartas" class="btn btn-primary me-2">Draw</button>
-          <button id="ordenarcartas" class="btn btn-success">Sort</button>
+          <button id="robarcartas" class="btn me-2 btn-dark text-white">
+            Draw
+          </button>
+          <button id="ordenarcartas" class="btn btn-dark text-white">
+            Sort
+          </button>
           <div class="mt-5" id="cardcontainer" class="card-grid"></div>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
-          <p class="fw-bold">Select log:</p>
+          <span class="fw-bold">Select log:</span>
+          <div id="sortcontainer"></div>
         </div>
       </div>
     </div>
